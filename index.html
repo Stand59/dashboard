@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Demo Dashboard</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div>
+        Book: <input id="book" type="text" name="fname"> </input>
+    </div>
+    <br>
+    <div>
+        Chapter: <input id="chapter" type="text"> 
+    </div>
+    <br>
+    <div>
+        <form>
+            <input type="button" onclick="demo()" value="demo"> 
+            <input type="button" onclick="submitMe()" value="submit"> 
+        </form>
+    </div>
+    <br>
+    <div id="root"></div>
+    <table>
+        <tr>
+            <th>Last Edited</th>
+            <td id="edit"></td>
+        </tr>
+        <tr>
+            <th>Views</th>
+            <td id="views"></td>
+        </tr>
+        <tr>
+            <th>PDF Dowloads</th>
+            <td id="pdf"></td>
+        </tr>
+      </table>
+    <script src="scripts.js"></script>
+  </body>
+</html>
+
+<!-- all that needs to be done is make it so the url actually can be requested
+     also make it so the url can be adjusted.  -->
