@@ -74,3 +74,42 @@
 
 
 // https://stackoverflow.com/questions/43262121/trying-to-use-fetch-and-pass-in-mode-no-cors
+
+// const flattenFoods = (foods) => {
+//     return foods.reduce((res, food) => {
+//       return res.concat(Array.isArray(food) ? flattenFoods(food) : food)
+//     }, [])
+//   }
+//   console.log(flattenFoods(foods)) // ['🍔', '🍫', '🍨', '🍿', '🍵']
+
+  
+    // console.log(response); 
+
+    // const outerArr = [];
+    // fetch('https://edtechbooks.org/api.php?book=k12handbook&chapter=connectivism&action=analytics')
+    //     .then((response) => response.json())
+    //     .then((returnedData) => {
+    //         returnedData.push();
+    //     });
+
+    // console.log(outerArr);
+
+//     let response = fetch('https://edtechbooks.org/api.php?book=k12handbook&chapter=connectivism&action=analytics', {
+//             mode: 'no-cors',
+//             method: "get"
+//  })
+
+ //fetch('http://localhost:8080/example', {
+    // mode: 'no-cors',
+    // method: "post",
+    // headers: {
+    //      "Content-Type": "application/json"
+    // },
+    // body: JSON.stringify(ob)
+// })
+
+//  console.log(response);
+
+//  var parseResp = JSON.parse(response);
+//  console.log(parseResp);
+
